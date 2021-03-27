@@ -30,7 +30,12 @@
                                 $Msg = " Your Message Has Been Sent ";
                                 echo '<div class="alert alert-success">'.$Msg.'</div>';
                             }
-                        
+                            
+                            if(isset($_GET['gratis']))
+                            {
+                                $Msg = " kau kira gratis telaso ";
+                                echo '<div class="alert alert-success">'.$Msg.'</div>';
+                            }
                         ?>
                     </div>
                     <div class="card-body">
