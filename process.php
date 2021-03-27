@@ -21,7 +21,7 @@
            }
            else
                {
-           echo("gagal kirim email karna tidak bayar huan");  
+           header("location:index.php?gratis"); 
        }
        }
     }
