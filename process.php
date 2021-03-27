@@ -19,6 +19,10 @@
            {
                header("location:index.php?success");
            }
+           else
+               {
+           header('location:index.php?error');  
+       }
        }
     }
     else
